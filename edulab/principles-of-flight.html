@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ATC - Principles of Flight</title>
+	<title>Principles of Flight - ATC Learning</title>
 	<meta name="viewport" content="width=device-width">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/all.css">
@@ -72,17 +72,25 @@
 			<div class="container">
 				<article class="page-article" itemprop="blogPost">
 					<div id = "video1" style="display: none">
-						<h1 itemprop="about">Principles of Flight (Part 1)</h1>
+						<h1 itemprop="about">Principles of Flight: Fundamentals</h1>
 						<div class="item-video">
 							<iframe width="100%" height="500" src="https://www.youtube.com/embed/nb74_jkr8u0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 							</iframe>
 						</div>
-						<p>Brief description of video</p>
+						<p>This video introduces the primary flight controls, starting flight position, the 4 forces of flight, and the fundamentals of flight.</p>
 					</div>
 					<div id = "video2" style="display: none">
-						<h1 itemprop="about">Principles of Flight (Part 2)</h1>
+						<h1 itemprop="about">Principles of Flight: Propeller Tendencies</h1>
 						<div class="item-video">
 							<iframe width="100%" height="500" src="https://www.youtube.com/embed/o8sc3VlZPUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+						</div>
+						<p>Brief description of video</p>
+					</div>
+					<div id = "video3" style="display: none">
+						<h1 itemprop="about">Principles of Flight: Trim & Uncoordinated flight</h1>
+						<div class="item-video">
+							<iframe width="100%" height="500" src="https://www.youtube.com/embed/rTrhAkTLHCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 							</iframe>
 						</div>
 						<p>Brief description of video</p>
@@ -101,7 +109,7 @@
 									<img src="https://i.ytimg.com/vi/nb74_jkr8u0/maxresdefault.jpg" alt="Post Images">
 								</div>
 								<a href="#"><div class="post-content">
-									<h3>Principles of Flight (Part 1)</h3>
+									<h3>Principles of Flight: <br>Fundamentals</h3>
 								</div></a>
 							</div>
 							<div class="post-wrap" onclick="showVideo('video2')">
@@ -109,7 +117,15 @@
 									<img src="https://i.ytimg.com/vi/o8sc3VlZPUc/maxresdefault.jpg" alt="Post Images">
 								</div>
 								<a href="#"><div class="post-content">
-									<h3>Principles of Flight (Part 2)</h3>
+									<h3>Principles of Flight: <br>Propeller Tendencies</h3>
+								</div></a>
+							</div>
+							<div class="post-wrap" onclick="showVideo('video3')">
+								<div class="img-wrap">
+									<img src="https://i.ytimg.com/vi/rTrhAkTLHCY/maxresdefault.jpg" alt="Post Images">
+								</div>
+								<a href="#"><div class="post-content">
+									<h3>Principles of Flight: <br>Trim & Uncoordinated flight</h3>
 								</div></a>
 							</div>
 						</div>
@@ -128,7 +144,7 @@
 		};
 
 		function showVideo(id) {
-			const videos = ['video1','video2']
+			const videos = ['video1','video2','video3']
 			for (let i = 0; i < videos.length; i++) {
 				if (id == videos[i]) {
 					document.getElementById(videos[i]).style.display = "block"
