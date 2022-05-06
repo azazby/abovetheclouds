@@ -840,7 +840,11 @@ ul > li {
 
 /*====For Video=====*/
 
-
+.activities-video {
+    display: none;
+    width: 100%;
+    height: 470px;
+}
 
 /*=========Popular Courses================*/
 
@@ -2654,7 +2658,7 @@ aside .reserve-course input[type="email"],
 }
 
 .customer-review .row .rewiew-content {
-	width: 74.026%;
+	width: 90%;
 	/*font-family: 'Raleway', sans-serif;*/
 }
 
