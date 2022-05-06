@@ -1728,10 +1728,6 @@ ul > li {
 	margin-left: 5px;
 }
 
-.submit-testimonials form span .rateYo {
-	display: inline-block;
-}
-
 .page-content .container aside .news-letter h2 {
 	/*font-size: 2.4rem;*/
 	text-align: center;
@@ -1800,16 +1796,16 @@ aside .news-letter hr {
 }
 
 .page-content .post-wrap .img-wrap {
-	width: 70px;
+	width: 100px;
 	object-fit: fill;
 }
 
 .page-content .post-wrap .img-wrap img{
-	height: 90px;
+	height: 70px;
 }
 
 .page-content .post-wrap .post-content {
-	width: 250px;
+	width: 238px;
 	/*background: #fff;*/
 	padding: 0.9375em;
 }
@@ -2579,6 +2575,7 @@ aside .reserve-course input[type="email"],
 
 .testimonial-page aside .submit-testimonials input[type="submit"] {
 	display: block;
+	width: 100%;
 }
 
 /*===Trainers========*/
