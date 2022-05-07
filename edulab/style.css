@@ -846,6 +846,11 @@ ul > li {
     height: 470px;
 }
 
+/*====Activities Thumbnails=====*/
+.activities-img {
+    width: 100%;
+}
+
 /*=========Popular Courses================*/
 
 .page-heading .container {
@@ -2544,26 +2549,6 @@ aside .news-letter hr {
 	margin-bottom: 1.25em;
 }
 
-#course-page aside .reserve-course input[type="text"],
-aside .reserve-course input[type="email"],
-.testimonial-page aside .submit-testimonials input[type="text"],
-.testimonial-page aside .submit-testimonials input[type="email"]
-{
-	width: 100%;
-	/*font-size: 1.4rem;*/
-	padding: 1em 0.85em;
-	margin-bottom: 1.43em;
-}
-
-#course-page aside .reserve-course textarea,
-.testimonial-page aside .submit-testimonials textarea {
-	width: 100%;
-	/*font-size: 1.4rem;*/
-	padding: 1.143em 1.5em;
-	margin-bottom: 1.2em;
-	height: 150px;
-	resize: none;
-}
 
 #course-page aside .reserve-course input[type="submit"],
 .testimonial-page aside .submit-testimonials input[type="submit"] {
@@ -2702,23 +2687,6 @@ aside .reserve-course input[type="email"],
 
 .testimonial-page aside {
 	width: 370px !important;
-}
-
-.testimonial-page .submit-testimonials form input[type="file"] {
-	display: none;
-}
-
-.testimonial-page .submit-testimonials form .custom-file-upload {
-	border: 1px solid #adadad;
-	display: block;
-	cursor: pointer;
-	color: #888;
-	/*background: #fff;*/
-	width: 120px;
-	padding: 6px 10px;
-	/*font-size: 1.4rem;*/
-	margin-bottom: 2.142em;
-	margin-top: 1.429em;
 }
 
 
