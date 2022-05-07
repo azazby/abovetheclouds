@@ -1717,12 +1717,13 @@ ul > li {
 }
 
 .page-content .container aside .news-letter,
- #course-page aside .reserve-course,
+aside .reserve-course,
  .testimonial-page aside .submit-testimonials {
-	/*background: #f3f3f3;*/
+	background: #f3f3f3;
 	border: 1px solid #c7c7c7;
 	padding: 1.5em;
 	border-radius: 5px;
+	margin-bottom: 40px;
 }
 
 .testimonial-page aside .submit-testimonials {
@@ -1962,6 +1963,7 @@ aside .news-letter hr {
 
 .page-content .page-article p {
 	/*font-size: 1.8rem;*/
+	margin-top: 1em;
 	margin-bottom: 2em;
 }
 
@@ -2384,6 +2386,7 @@ aside .news-letter hr {
 
 .team-members .developer-grid .developer-wrap {
 	width: 270px;
+	height: 300px;
 	background: #f8f8f8;
 	padding: 1.75em 3.125em;
 }
@@ -2542,7 +2545,7 @@ aside .news-letter hr {
   	-webkit-transform: rotate(-45deg);
 }
 
-#course-page .reserve-course h2,
+.reserve-course h2,
 .testimonial-page aside .submit-testimonials h2 {
 	/*font-size: 2rem;*/
 	font-weight: 500;
@@ -2550,7 +2553,7 @@ aside .news-letter hr {
 }
 
 
-#course-page aside .reserve-course input[type="submit"],
+aside .reserve-course input[type="submit"],
 .testimonial-page aside .submit-testimonials input[type="submit"] {
 	width: 150px;
 	/*background: #1c3961;*/
@@ -2564,7 +2567,9 @@ aside .news-letter hr {
 
 .testimonial-page aside .submit-testimonials input[type="submit"] {
 	display: block;
-	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	width: auto;
 }
 
 /*===Trainers========*/
@@ -2609,7 +2614,7 @@ aside .news-letter hr {
 }
 
 /*==================================
-	Testimonial Page
+	(Activities) Testimonial Page
 ====================================*/
 
 .testimonial-page .container {
@@ -2647,8 +2652,11 @@ aside .news-letter hr {
 	/*font-family: 'Raleway', sans-serif;*/
 }
 
-.row .rewiew-content p {
-	/*font-size: 1.4rem;*/
+.row .rewiew-content h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 	/*color: #636363;*/
 }
 
@@ -2664,23 +2672,9 @@ aside .news-letter hr {
 	justify-content: space-between;
 }
 
-.row .rewiew-content footer h4::before {
-	content: "- ";
-	/*font-size: 1.5rem;*/
-	font-weight: bold;
-}
-
-.row .rewiew-content footer h4::after {
-	content: "";
-	/*font-size: 1.5rem;*/
-	font-weight: bold;
-	border: 1px solid #000;
-	margin-left: 0.9em;
-	margin-right: 0.6em;
-}
-
-.row .rewiew-content footer h4, .row .rewiew-content p {
+.row .rewiew-content footer p, .row .rewiew-content p {
 	display: inline-block;
+	font-size: 1.8rem;
 }
 
 /*===testimonial aside*/
