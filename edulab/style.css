@@ -1329,6 +1329,12 @@ ul > li {
 	margin-top: 1.4285em;
 	margin-bottom: 1.4285em;
 }
+
+.details:hover {
+    -webkit-box-shadow: 0px 0px 5px 4px #e1e1e1;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    0px 0px 5px 4px #e1e1e1;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         0px 0px 5px 4px #e1e1e1;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
 /*========What other say section ============*/
 
 .what-other-say {
@@ -1803,6 +1809,13 @@ aside .news-letter hr {
 	flex: 1;
 	flex-flow: row wrap;
 	margin-bottom: 1.25em;
+	cursor: pointer;
+}
+
+.post-wrap:hover {
+    -webkit-box-shadow: 0px 0px 5px 4px #e1e1e1;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    0px 0px 5px 4px #e1e1e1;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         0px 0px 5px 4px #e1e1e1;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .page-content .post-wrap .img-wrap {
