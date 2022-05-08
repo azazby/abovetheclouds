@@ -2344,14 +2344,34 @@ aside .news-letter hr {
 }
 
 .about-upper-section .who-we-are {
-	width: 57.265%;
+	width: 50%;
+	padding-right: 55px;
+}
+
+
+.about-upper-section .who-we-are h3 {
+	font-size: 2rem;
+	/*color: #59616d;*/
+	line-height: 1.8;
+	padding-left: 20px;
 }
 
 .about-upper-section .who-we-are p {
-	/*font-size: 1.6rem;*/
+	font-size: 1.8rem;
 	/*color: #59616d;*/
 	margin-bottom: 1.875em;
 	line-height: 1.8;
+}
+
+.program-header {
+    display: flex;
+    align-items: center;
+    justify-content: left
+}
+
+.program-logo {
+    width: 150px;
+    /*flex-basis: 40%;*/
 }
 
 .top-heading {
@@ -2364,7 +2384,7 @@ aside .news-letter hr {
 /*=====Our Story=====*/
 
 .about-upper-section .our-story {
-	width: 370px;
+	width: 500px;
 }
 
 .about-upper-section .our-story ul {
